@@ -1,3 +1,4 @@
 (function () {
-  window.videoService = 'http://res.cloudinary.com/candidate-evaluation/raw/upload/video-list-home-task.json'
+  window.cloudinaryCloudName = 'candidate-evaluation'
+  window.cloudinaryResource = 'video-list-home-task.json'
 })()
