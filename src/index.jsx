@@ -34,7 +34,7 @@ const getVideoByName = (list, name) => {
   let len = list.length
   for(let index = 0 ;index < len; index ++){
     if (list[index].name === name){
-      return list[index].url
+      return list[index]
     }
   }
 }
@@ -43,7 +43,7 @@ const routing = (
   <Router>
     <App>
       <Route exact path="/" render={(props) => <VideosList videoList={videoMainList} cloudinaryCloudName={cloudinaryCloudName} />} />
-      <Route path="/watch/:name" render={(props) => <Watch videoService={videoService} videoInfoUrl={getVideoByName(videoMainList, props.match.params.name)}  cloudinaryCloudName={cloudinaryCloudName}/>} />
+      <Route path="/watch/:name" render={(props) => <Watch videoService={videoService} videoInfo={getVideoByName(videoMainList, props.match.params.name)}  cloudinaryCloudName={cloudinaryCloudName}/>} />
     </App>
   </Router>
 )
