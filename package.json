@@ -23,7 +23,7 @@
     "axios": "^0.18.0",
     "cloudinary-react": "^1.1.0",
     "copy-webpack-plugin": "^4.6.0",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.8.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-materialize": "^2.5.1",
