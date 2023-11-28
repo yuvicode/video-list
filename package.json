@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/yuvicode/video-list#readme",
   "dependencies": {
-    "@material-ui/core": "^3.8.1",
+    "@material-ui/core": "^4.0.0",
     "recomment": "git+https://git@github.com/yuvicode/recomment.git",
     "axios": "^0.18.0",
     "cloudinary-react": "^1.1.0",
