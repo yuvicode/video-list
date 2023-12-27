@@ -20,7 +20,7 @@
   "dependencies": {
     "@material-ui/core": "^3.8.1",
     "recomment": "git+https://git@github.com/yuvicode/recomment.git",
-    "axios": "^0.18.0",
+    "axios": "^1.6.3",
     "cloudinary-react": "^1.1.0",
     "copy-webpack-plugin": "^4.6.0",
     "prop-types": "^15.6.2",
